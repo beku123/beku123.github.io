@@ -1,312 +1,383 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio</title>
-    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css"> </head>
+     <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Montserrat|Roboto+Slab" rel="stylesheet">
+</head>
 
 <body>
-    <!--         MENU           -->
+    <!-----------------------------BAR NAWIGACYJNY-------------------------------->
     <nav ID="main-nav" class="navbar navbar-default navbar-fixed-top nav-backcolor">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-<!--            adassdads-->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand brand-spec" href="#header-main">Bartosz Parzychowski</a> </div>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                <a class="navbar-brand" href="#header-main">Bootstrap Project</a>
+            </div>
+
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav"> </ul>
-                <ul class="nav navbar-nav navbar-right nav-right-myclass">
-                    <li><a href="#header">HOME</a></li>
-                    <li><a href="#about">O MNIE</a></li>
-                    <li><a href="#abilities">UMIEJETNOSCI</a></li>
-                    <li><a href="#portfolio">PORTFOLIO</a></li>
-                    <li><a href="#stricte-contact">Kontakt</a></li>
+                <ul class="nav navbar-nav">
+
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right moja-klasa">
+                    <li><a href="#main-services">SERVICES</a></li>
+                    <li><a href="#port">PORTFOLIO</a></li>
+                    <li><a href="#meetteam">TEAM</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
     </nav>
-    <!--          STRONA TYTULOWA          -->
-    <header id="header"> <img src="img/header-background.jpg" alt="Zdjęcie nagłówkowe">
-        <h1 id="main-header-text" class="first_word">Parzychowski</h1>
-        <h2 id="second-header-text">Front-end Developer</h2> </header>
-    <!-- O MNIE   -->
-    <section id="about"> <img src="img/portfolio-grafiki/img/jan-nowak.jpg" alt="jannowak">
-        <h2 id="about-header" class="about-header-fl">mnie</h2>
-        <div id=about-div>
-            <article class="about-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus rerum nihil perferendis, quam soluta quia facilis eius atque, voluptatibus cumque commodi deserunt libero qui. Repellat dignissimos nulla suscipit architecto commodi eaque recusandae, voluptatem mollitia illum autem illo, velit ipsa officiis repellendus? Maiores, cupiditate sapiente tenetur optio impedit. Provident, dolorem, aliquam?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et numquam est, perferendis, repellendus enim corporis ratione repellat repudiandae eum vitae voluptatibus ipsam quia distinctio officia dolorem consequatur, officiis, porro ut?</article>
-            <br /> </div>
-    </section>
-    <!--  UMIEJESTNOSC  -->
-    <section id="abilities">
-        <h2 id="abilities-header" class="abilities-header-fw">umiejętności</h2>
-        <p id="abilities-text" class="about-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae reiciendis qui ipsum et mollitia nam praesentium, laboriosam impedit eaque nostrum vitae laborum voluptatibus modi labore debitis voluptates neque quia molestias quis vero iure rerum at dolore. Quaerat expedita exercitationem omnis repudiandae aliquid minima vel minus quidem modi corporis quibusdam ullam voluptatum, odio harum praesentium repellendus, possimus magni vitae iure inventore deserunt recusandae sapiente incidunt similique! Deserunt maiores vitae sapiente expedita iste corporis aliquam velit quidem mollitia placeat assumenda exercitationem sint fugit ab molestiae quia cum, nisi obcaecati, beatae quos autem porro? Magnam quibusdam ad, nesciunt minus consequatur! Cum, voluptates, dolorem.</p>
-        <div id="container icons-cont">
+<!------------------TYTULOWA------------->
+<header id="header-main" class="header-container">
+
+    <div class="header-inner text-center">
+        
+
+            <h2>Num libero temporte</h2>
+            <h1>LOREM IPSUM DOLOR</h1>
+            <button type="button" class="btn btn-info">VIEW MORE</button>
+        
+    </div>
+
+</header>
+<!-----------------------SERVICES------------------------------>
+
+<section id="main-services" class="services-main">
+
+    <div class="text-center services-header">
+       <div class="head-of-service">
+        <h2>SERVICES</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="container-fluid services-services">
+            <div class="row text-center">
+                <div class="col-xs-12 col-md-6 col-lg-4 ">
+                    <div class="single-service">
+                       
+                        <i class="fa fa-suitcase fa-5x" aria-hidden="true"></i>
+                        <h2><strong>Web Development</strong></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam doloribus, eligendi. Commodi cum similique, maiores iusto vero adipisci temporibus dolor?</p>
+                        
+
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4 ">
+                    <div class="single-service">
+                       
+                        <i class="fa fa-cloud-download fa-5x" aria-hidden="true"></i>
+                        <h2><strong>E-commerce</strong></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam doloribus, eligendi. Commodi cum similique, maiores iusto vero adipisci temporibus dolor?</p>
+                       
+
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-0 text-capitalize">
+                    <div class="single-service">
+                       
+                        <i class="fa fa-comment fa-5x" aria-hidden="true"></i>
+                        <h2><strong>Web Desing</strong></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam doloribus, eligendi. Commodi cum similique, maiores iusto vero adipisci temporibus dolor?</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>   
+
+</section>
+
+<!---------PORTFOLIO--------->
+
+<section id="port" class="text-center">
+
+    <h2>PORTFOLIO</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <!--    <div class="port-container">-->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-xs-12 col-md-6 col-lg-4 outer text-center">
+                <div class="single-port text-center">
+                    <div class="image-container single-port-1">
+                        <div class="single-port-mask">
+                            <i class="fa fa-plus fa-5x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <h2>Lorem ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4 outer text-center">
+                <div class="single-port text-center ">
+                    <div class="image-container single-port-2">
+                        <div class="single-port-mask">
+                            <i class="fa fa-plus fa-5x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <h2>Lorem ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-0 text-capitalize">
+                <div class="single-port text-center">
+                    <div class="image-container single-port-3">
+                        <div class="single-port-mask">
+                            <i class="fa fa-plus fa-5x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <h2>Lorem ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-6 col-lg-4 outer text-center">
+                <div class="single-port text-center">
+                    <div class="image-container single-port-4">
+                        <div class="single-port-mask">
+                            <i class="fa fa-plus fa-5x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <h2>Lorem ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4 outer text-center">
+                <div class="single-port text-center">
+                    <div class="image-container single-port-5">
+                        <div class="single-port-mask">
+                            <i class="fa fa-plus fa-5x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <h2>Lorem ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-0 text-capitalize">
+                <div class="single-port text-center">
+                    <div class="image-container single-port-6">
+                        <div class="single-port-mask">
+                            <i class="fa fa-plus fa-5x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <h2>Lorem ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+<!--    </div>-->
+
+<!--------------MEAT OUR TEAM-------------->
+
+</section>
+<section id="meetteam">
+
+
+    <h2>MEET OUR TEAM</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-xs-12 col-md-6 col-lg-4 outer text-center">
+
+                <div class="meet-single-container">
+
+                    <div class="meet-single-container-photo">
+                        <img class="image-circle" src="css/img/team/man-1.jpg" alt="man1" style="width:200px;height:auto;">
+                    </div>
+                    <div class="meet-single-container-name">
+                        <h2>Erick Stern</h2>
+                        <p>Account Manager</p>
+                    </div>
+                    <div class="meet-single-container-icons">
+
+
+                        <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+
+
+                        <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+
+
+                        <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="col-xs-12 col-md-6 col-lg-4 outer text-center">
+                <div class="meet-single-container">
+
+                    <div class="meet-single-container-photo">
+                        <img class="image-circle" src="css/img/team/man-2.jpg" alt="man1" style="width:200px;height:auto;">
+                    </div>
+                    <div class="meet-single-container-name">
+                        <h2>Martin Muller</h2>
+                        <p>Developer</p>
+                    </div>
+                    <div class="meet-single-container-icons">
+
+
+                        <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+
+
+                        <i class="fa fa-twitter-square fa-3x muller-icon" aria-hidden="true"></i>
+
+
+                        <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-xs-12 col-md-6 col-lg-4 outer text-center">
+
+                <div class="meet-single-container">
+
+                    <div class="meet-single-container-photo">
+                        <img class="image-circle" src="css/img/team/woman-1.jpg" alt="man1" style="width:200px;height:auto;">
+                    </div>
+                    <div class="meet-single-container-name">
+                        <h2>Anna Smith</h2>
+                        <p>Account Manager</p>
+                    </div>
+                    <div class="meet-single-container-icons">
+
+
+                        <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+
+
+                        <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+
+
+                        <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</section>
+    
+<!------------------CONTACT---------------------------------->
+    
+<section id="contact">
+
+    <h2>CONTACT US</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <form action="https://formspree.io/parzychowskibartosz@gmail.com" method="POST">
+        <div class="container form-container-beautif">
             <div class="row">
-                <div class="col-xs-12 col-md-6 col-lg-3 outer text-center">
-                    <div class="inner-cont"> <img src="img/portfolio-grafiki/icons/html5.png" alt="html">
-                        <p>HTML</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-3 outer text-center">
-                    <div class="inner-cont"> <img src="img/portfolio-grafiki/icons/css3.png" alt="css">
-                        <p>CSS3</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-3 outer text-center">
-                    <div class="inner-cont"> <img src="img/portfolio-grafiki/icons/js.png" alt="js">
-                        <p>JavaScript</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-3 outer text-center">
-                    <div class="inner-cont"> <img src="img/portfolio-grafiki/icons/jquery.png" alt="jq">
-                        <p>JQuery</p>
-                    </div>
-                </div>
-            </div>
-            <!--
-            <ul class="class-technologies">
-                <li><img src="img/portfolio-grafiki/icons/html5.png" alt="html">
-                    <p>HTML</p>
-                </li>
-                <li><img src="img/portfolio-grafiki/icons/css3.png" alt="css">
-                    <p>CSS3</p>
-                </li>
-                <li><img src="img/portfolio-grafiki/icons/js.png" alt="js">
-                    <p>JavaScript</p>
-                </li>
-                <li><img src="img/portfolio-grafiki/icons/jquery.png" alt="jq">
-                    <p>JQuery</p>
-                </li>
-            </ul>
--->
-        </div>
-    </section>
-    <!--  PORTFOLOIO -->
-    <section id="portfolio">
-        <h2 id="portfolio-header" class="portfolio-header-fw">portfolio</h2>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-md-4 col-lg-4 outer text-center">
-                    <div id="portfolio-item-1" class="single-portfolio-item">
-                        <div class="single-portfolio-item-mask">
-                            <div class="single-portfolio-item-mask-content">
-                                <div class="single-portfolio-item-mask-content-inner">
-                                    <h3>Lorem Ipsum</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta accusantium, praesentium nisi necessitatibus suscipit! Voluptates deserunt incidunt, delectus facilis illum, voluptatem et ad, cumque voluptatum dicta consequuntur vitae repudiandae fuga.</p>
-                                    <h4>Wykorzystywane technologie:</h4>
-                                    <p>HTML5, CSS3, RWD, Bootstrap, JavaScript, JQuery</p> <a href="https://www.o2.pl/" target=_blank><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></a> </div>
-                            </div>
+
+                <div class="col-xs-12 col-md-6 col-lg-6 outer text-center">
+                    <div id="contact-formule" class="contact-block">
+
+                        <div>
+                            <label for=“name”></label><br><input type=“text” name=“name” id="name" placeholder="YOUR NAME" class="label-style" />
+                        </div>
+                        <div>
+                            <label for=“email”></label><br><input type=“text” name=“email” id="email" placeholder="YOUR EMAIL" class="label-style" />
+                        </div>
+                        <div>
+                            <label for=“phone”></label><br><input type=“text” name=“phone” id="phone" placeholder="PHONE NUMBER" class="label-style" />
+
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-4 col-lg-4 outer text-center">
-                    <div id="portfolio-item-2" class="single-portfolio-item">
-                        <div class="single-portfolio-item-mask">
-                            <div class="single-portfolio-item-mask-content">
-                                <div class="single-portfolio-item-mask-content-inner">
-                                    <h3>Lorem Ipsum</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta accusantium, praesentium nisi necessitatibus suscipit! Voluptates deserunt incidunt, delectus facilis illum, voluptatem et ad, cumque voluptatum dicta consequuntur vitae repudiandae fuga.</p>
-                                    <h4>Wykorzystywane technologie:</h4>
-                                    <p>HTML5, CSS3, RWD, Bootstrap, JavaScript, JQuery</p> <a href="https://www.o2.pl/" target=_blank><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></a> </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-xs-12 col-md-6 col-lg-6 outer text-center">
+                    <label for=“note”></label><br>
+                    <textarea name="note" placeholder="TEXT" maxlength=1000 id="note" class="note-style"> </textarea>
+
                 </div>
-                <div class="col-xs-12 col-md-4 col-lg-4 outer text-center">
-                    <div id="portfolio-item-2" class="single-portfolio-item">
-                        <div class="single-portfolio-item-mask">
-                            <div class="single-portfolio-item-mask-content">
-                                <div class="single-portfolio-item-mask-content-inner">
-                                    <h3>Lorem Ipsum</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta accusantium, praesentium nisi necessitatibus suscipit! Voluptates deserunt incidunt, delectus facilis illum, voluptatem et ad, cumque voluptatum dicta consequuntur vitae repudiandae fuga.</p>
-                                    <h4>Wykorzystywane technologie:</h4>
-                                    <p>HTML5, CSS3, RWD, Bootstrap, JavaScript, JQuery</p> <a href="https://www.o2.pl/" target=_blank><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></a> </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+
+
             </div>
         </div>
-        <!--        <div id="container">-->
-        <!--
-            <div class="row">
+        <div>
+            <input type="submit" value="Send Message" class="btn btn-success submit-button">
+        </div>
+    </form>
+</section>
 
-                <div class="col-xs-12 col-md-4 col-lg-4 outer text-center">
 
-                    <div id="portfolio-item-1" class="single-portfolio-item">
+<!--FOOTER-->
 
-                        <div class="single-portfolio-item-mask">
-                            <div class="single-portfolio-item-mask-content">
-                                <div class="single-portfolio-item-mask-content-inner">
-                                    <h3>Lorem Ipsum</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta accusantium, praesentium nisi necessitatibus suscipit! Voluptates deserunt incidunt, delectus facilis illum, voluptatem et ad, cumque voluptatum dicta consequuntur vitae repudiandae fuga.</p>
-                                    <h4>Wykorzystywane technologie:</h4>
-                                    <p>HTML5, CSS3, RWD, Bootstrap, JavaScript, JQuery</p>
-                                    <a href="https://www.o2.pl/" target=_blank><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                        </div>
 
-                    </div>
--->
-        <!--
-                </div>
-
+<footer id="footer">
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-6 col-lg-4 outer footer-copyright-class">
+                <p>Copyright@Your Website</p>
             </div>
-            <div class="col-xs-12 col-md-4 col-lg-4 outer text-center">
+            <div class="col-xs-12 col-md-6 col-lg-4 outer text-center footer-icons-class">
+                <i class="fa fa-facebook-square fa-3x footer-icon-single-class" aria-hidden="true"></i>
 
-                <div id="portfolio-item-2" class="single-portfolio-item">
 
-                    <div class="single-portfolio-item-mask">
-                        <div class="single-portfolio-item-mask-content">
-                            <div class="single-portfolio-item-mask-content-inner">
-                                <h3>Lorem Ipsum</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta accusantium, praesentium nisi necessitatibus suscipit! Voluptates deserunt incidunt, delectus facilis illum, voluptatem et ad, cumque voluptatum dicta consequuntur vitae repudiandae fuga.</p>
-                                <h4>Wykorzystywane technologie:</h4>
-                                <p>HTML5, CSS3, RWD, Bootstrap, JavaScript, JQuery</p>
-                                <a href="https://www.o2.pl/" target=_blank><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                    </div>
+                        <i class="fa fa-twitter-square fa-3x footer-icon-single-class" aria-hidden="true"></i>
 
-                </div>
 
+                        <i class="fa fa-linkedin-square fa-3x footer-icon-single-class" aria-hidden="true"></i>
             </div>
-            <div class="col-xs-12 col-md-4 col-lg-4 outer text-center">
-
-                <div id="portfolio-item-3" class="single-portfolio-item">
-
-                    <div class="single-portfolio-item-mask">
-                        <div class="single-portfolio-item-mask-content">
-                            <div class="single-portfolio-item-mask-content-inner">
-                                <h3>Lorem Ipsum</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta accusantium, praesentium nisi necessitatibus suscipit! Voluptates deserunt incidunt, delectus facilis illum, voluptatem et ad, cumque voluptatum dicta consequuntur vitae repudiandae fuga.</p>
-                                <h4>Wykorzystywane technologie:</h4>
-                                <p>HTML5, CSS3, RWD, Bootstrap, JavaScript, JQuery</p>
-                                <a href="https://www.o2.pl/" target=_blank><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
--->
-        <!--        </div>-->
-        <!--
-        <div class="portfolio-items">
-            
-              <div id="portfolio-item-1" class="single-portfolio-item">
+            <div class="col-xs-12 col-md-6 col-lg-4 outer text-center footer-termsofuse-class">              
+                
+                        
+               <a href="http://www.o2.pl"><p>Privacy policy</p></a>
+                       
+                        
+                <a href="http://www.o2.pl"><p>Terms of use</p></a>
+                          
                  
-                 <div class="single-portfolio-item-mask">
-                     <div class="single-portfolio-item-mask-content">
-                         <div class="single-portfolio-item-mask-content-inner">
-                             <h3>Lorem Ipsum</h3>
-                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta accusantium, praesentium nisi necessitatibus suscipit! Voluptates deserunt incidunt, delectus facilis illum, voluptatem et ad, cumque voluptatum dicta consequuntur vitae repudiandae fuga.</p>
-                             <h4>Wykorzystywane technologie:</h4>
-                             <p>HTML5, CSS3, RWD, Bootstrap, JavaScript, JQuery</p>
-                             <a href="https://www.o2.pl/" target=_blank><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></a>
-                         </div>
-                     </div>
-                 </div>
-                  
-              </div>
-              
-               <div id="portfolio-item-2" class="single-portfolio-item">
-                 
-                 <div class="single-portfolio-item-mask">
-                     <div class="single-portfolio-item-mask-content">
-                         <div class="single-portfolio-item-mask-content-inner">
-                             <h3>Lorem Ipsum</h3>
-                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta accusantium, praesentium nisi necessitatibus suscipit! Voluptates deserunt incidunt, delectus facilis illum, voluptatem et ad, cumque voluptatum dicta consequuntur vitae repudiandae fuga.</p>
-                             <h4>Wykorzystywane technologie:</h4>
-                             <p>HTML5, CSS3, RWD, Bootstrap, JavaScript, JQuery</p>
-                             <a href="https://www.o2.pl/" target=_blank><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></a>
-                         </div>
-                     </div>
-                 </div>
-                  
-              </div>
-              
-               <div id="portfolio-item-3" class="single-portfolio-item">
-                 
-                 <div class="single-portfolio-item-mask">
-                     <div class="single-portfolio-item-mask-content">
-                         <div class="single-portfolio-item-mask-content-inner">
-                             <h3>Lorem Ipsum</h3>
-                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta accusantium, praesentium nisi necessitatibus suscipit! Voluptates deserunt incidunt, delectus facilis illum, voluptatem et ad, cumque voluptatum dicta consequuntur vitae repudiandae fuga.</p>
-                             <h4>Wykorzystywane technologie:</h4>
-                             <p>HTML5, CSS3, RWD, Bootstrap, JavaScript, JQuery</p>
-                              <a href="https://www.o2.pl/" target=_blank><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></a>
-                         </div>
-                     </div>
-                 </div>
-                  
-              </div>  
-            
-        </div>
--->
-    </section>
-    <!--  **************KONTAKT***********  -->
-    <section id="stricte-contact">
-        <div id="contact-all">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-12 sm-12 col-md-6 col-lg-6 outer text-center">
-                        <div id="contact-information" class="contact-block">
-                            <h2 id="name-surname-contact">Bartosz <span style="color:green">Parzychowski</span></h2>
-                            <p class="adress">ul. Mostowa 6/13
-                                <br>31-023 Kraków</p>
-                            <p class="adress">tel.888 138 362
-                                <br>e-mail:<span style="color: #1ac056"> beku1231@gmail.com</span></p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 sm-12 col-md-6 col-lg-6 outer text-center">
-                        <h2>Napisz do mnie!</h2>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <form action="https://formspree.io/parzychowskibartosz@gmail.com" method="POST">
-                           
-                                <div>
-                                    <label for=“name”></label>
-                                    <br>
-                                    <input type=“text” name=“name” id="name" placeholder="Twoje imię" class="label-style" /> </div>
-                                <div>
-                                    <label for=“email”></label>
-                                    <br>
-                                    <input type=“text” name=“email” id="email" placeholder="Twój Email" class="label-style" /> </div>
-                                <div>
-                                    <label for=“phone”></label>
-                                    <br>
-                                    <input type=“text” name=“phone” id="phone" placeholder="Numer telefonu" class="label-style" /> </div>
-                           
-                            
-                         
-                                <input type="submit" value="Wyślij!" class="btn btn-success submit-button"> 
-                              
-                        </form>
-                    </div>
-                </div>
+                
             </div>
         </div>
-      
-    </section>
-    <footer id="contact">
-        <div id="foot">
-            <p id="contact-header">Copyright @ Bartosz Parzychowski</p>
-        </div>
-    </footer>
+    </div>
+    
+    
+</footer>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!--Skompresowany plik BootstrapJavaScriptdodany lokalnie -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js" type="text/javascript"></script>
+    <script src="js/script.js" type="text/javascript"></script>
 </body>
 
 </html>
