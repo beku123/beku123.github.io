@@ -1,0 +1,56 @@
+@media all and (max-width : 680px){}
+@media all and (max-width : 480px){}
+@media all and (max-width : 1200px){}
+
+@media all and (max-width : 768px){
+/*  MENU */
+    .toggle {
+        display: block; 
+        background-color: white; 
+        padding: 0 20px; 
+        color: #1ac056;
+        font-size: 20px; 
+        line-height: 60px; 
+        text-decoration: none; 
+        border: none; 
+        text-align: right
+    }
+    #menu-ul{
+        display: none;
+    }
+    #menu #drop:checked + ul{
+       display: block;
+    }
+    #menu li{
+        display: block;
+        width: 100%;
+        
+        text-align: right;
+        
+    }
+    #label-menu{
+    display: block;
+    }
+    #drop{
+    display:none;
+    }
+/*TYTULOWA*/
+    #main-header-text{
+        font-size: 30px;
+    }
+    #second-header-text {
+    position: absolute;
+    font-style: italic;
+    font-size: 15px;
+    font-weight:100;
+    margin: 0;
+    top: 70%;
+    left: 0;
+    right: 0;
+    color: white;
+    }    
+    .first_word:before{
+    color: white;
+    content: "Bartosz ";
+    font-size: 20px;
+    }
